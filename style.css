@@ -1,0 +1,141 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+    background-color:#3d5a80;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Bebas Neue', sans-serif;
+  color: #e0fbfc;
+}
+
+h2{
+  font-family: 'Bebas Neue', sans-serif;
+  color: #e0fbfc;
+}
+
+p{
+  font-family: 'Dosis', sans-serif;
+  color: #e0fbfc;
+}
+
+div.jeter{
+  text-align: center;
+}
+
+.button{
+  background-color: #ee6c4d;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 12px;
+  font-family: 'Dosis', sans-serif;
+  color: #e0fbfc;
+}
+.button:hover{
+  background-color: #e0fbfc;
+  border: 2px solid #ee6c4d;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 12px;
+  font-family: 'Dosis', sans-serif;
+  color: #ee6c4d;
+}
+div.button1{
+  text-align: center;
+  margin: 0;
+  position: relative;
+  left: 0%;
+}
+
+hr{
+  border-top: 1px solid #e0fbfc;
+  width: 50%;
+}
+
+div.container{
+  border: 2px solid #e0fbfc;
+  height: 155px;
+  width: 700px;
+  text-align: center;
+  background-color:#98c1d9 ;
+  border-radius: 12px;
+}
+
+div.container2{
+  border: 2px solid #e0fbfc;
+  height: 50px;
+  width: 700px;
+  text-align: center;
+  background-color:#98c1d9 ;
+  border-radius: 12px;
+}
+
+div.container3{
+  border: 2px solid #e0fbfc;
+  height: 50px;
+  width: 700px;
+  text-align: center;
+  background-color:#98c1d9 ;
+  border-radius: 12px;
+}
+
+  .dropbtn {
+  background-color: #ee6c4d;
+  font-family: 'Dosis', sans-serif;
+  color: #e0fbfc;
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 12px;
+  position: relative;
+  left: 0%;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: #293241;
+  height: 200px;
+  width: 180px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  color: #e0fbfc;
+  font-family: 'Dosis', sans-serif;
+  padding: 12px 16px;
+}
+
+.dropdown-content a{
+  color: #e0fbfc;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: 'Dosis', sans-serif;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #e0fbfc; border: 2px solid #ee6c4d; color: #ee6c4d; cursor: pointer;}
+
+img {
+  border: 2px solid #e0fbfc;
+}
